@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "714273655261",
+    "project_id": "freecodebimalin",
+    "storage_bucket": "freecodebimalin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714273655261:android:fcd7a9e0c76c92453c8e34",
+        "android_client_info": {
+          "package_name": "com.example.flutter_freecodecamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714273655261-jbgcqb7agr89oth0bmrvis7cknvlugji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB54z24MMclKTitOqW9iJ2rmH1I87fBXks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714273655261-jbgcqb7agr89oth0bmrvis7cknvlugji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
