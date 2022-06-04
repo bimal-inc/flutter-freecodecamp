@@ -29,6 +29,13 @@
             {
               "client_id": "714273655261-jbgcqb7agr89oth0bmrvis7cknvlugji.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "714273655261-pf5sqp8i1g08sdskb6qp3i7uigt0k7pi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterFreecodecamp"
+              }
             }
           ]
         }
