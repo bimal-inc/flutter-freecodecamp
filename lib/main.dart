@@ -42,9 +42,15 @@ class _RegisterViewState extends State<RegisterView> {
           body: Column(
             children: [
               TextField(
+                decoration: InputDecoration(
+                  hintText: "Email",
+                ),
                 controller: _email,
               ),
               TextField(
+                decoration: InputDecoration(
+                  hintText: "Password",
+                ),
                 controller: _password,
               ),
               TextButton(onPressed: () async {}, child: Text('Register')),
