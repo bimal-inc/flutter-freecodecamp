@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+//import firebase auth
+import 'package:firebase_auth/firebase_auth.dart';
 
 void main() {
   runApp(RegisterView());
@@ -53,7 +55,14 @@ class _RegisterViewState extends State<RegisterView> {
                 ),
                 controller: _password,
               ),
-              TextButton(onPressed: () async {}, child: Text('Register')),
+              TextButton(
+                  onPressed: () async {
+                    final email = _email.text;
+                    final password = _password.text;
+                    await FirebaseAuth.instance.createUserWithEmailAndPassword(
+                        email: email, password: password);
+                  },
+                  child: Text('Register')),
             ],
           )),
     );
